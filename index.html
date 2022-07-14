@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Chartered Airlines MENU</title>
+	</head>
+	<link rel="icon" href=1.tabicon.png>
+	<style>
+		body {
+			background-image: url("index.png");
+			text-align: center;
+			margin: auto;
+			width: 60%;
+			padding: 200px;
+		}
+		input{
+			background-color:rgb(255, 129, 56);
+			width: 300px;
+			border-radius: 35px;
+		}
+	</style>
+	<body> 
+			<h1> Welcome to Chartered Airlines! <br><br>How can I help you? </h1>
+		<form name="retrieve" action="view.php" method="POST">
+			<p><input type="submit" name="submit" value="View flights"></p>
+		</form>
+		<form name=retrieve" action="dropdown_list.php" method="POST">
+			<p><input type="submit" name="submit" value="Show details about customers"></p>
+		</form>
+		<form name=retrieve" action="totalreservations_money.php" method="POST">
+			<p><input type="submit" name="submit" value="Show the reservations and the total cost of them"></p>
+		</form>
+	</body>
+</html>
